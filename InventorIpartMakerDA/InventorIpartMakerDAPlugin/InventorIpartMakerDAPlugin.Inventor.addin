@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Addin Type="Plugin">
+  <ClassId>{5d4b3e39-f1f6-45bc-b401-5aada04bfb77}</ClassId>
+  <ClientId>{5d4b3e39-f1f6-45bc-b401-5aada04bfb77}</ClientId>
+  <DisplayName>InventorIpartMakerDAPlugin</DisplayName>
+  <Description>a InventorIpartMakerDAPlugin</Description>
+  <Assembly>InventorIpartMakerDAPlugin.dll</Assembly>
+</Addin>
