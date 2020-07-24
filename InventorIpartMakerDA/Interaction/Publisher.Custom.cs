@@ -95,7 +95,7 @@ namespace Interaction
                             Constants.Parameters.InventorDoc,
                             new XrefTreeArgument
                             {
-                                Url = "https://developer.api.autodesk.com/oss/v2/signedresources/e641f5bd-a9fa-4074-b812-961049c9a4cb?region=US"
+                                Url = "https://developer.api.autodesk.com/oss/v2/signedresources/beee964a-839f-4a6b-9de2-c0016de3aceb?region=US"
                             }
                         },
                         {
@@ -103,7 +103,7 @@ namespace Interaction
                             new XrefTreeArgument
                             {
                                 Verb = Verb.Put,
-                                Url = "https://developer.api.autodesk.com/oss/v2/signedresources/c686ce15-ba6f-4f8b-a74f-e5caa26d009a?region=US"
+                                Url = "https://developer.api.autodesk.com/oss/v2/signedresources/273b101e-8f76-41fb-8935-cf6b81580ac5?region=US"
                             }
                         }
                     };
