@@ -50,7 +50,8 @@ namespace Interaction
         /// </summary>
         private static List<string> GetActivityCommandLine()
         {
-            return new List<string> { $"$(engine.path)\\InventorCoreConsole.exe /al $(appbundles[{Constants.Activity.Id}].path) /i $(args[{Constants.Parameters.InventorDoc}].path)" };
+            //return new List<string> { $"$(engine.path)\\InventorCoreConsole.exe /al $(appbundles[{Constants.Activity.Id}].path) /i $(args[{Constants.Parameters.InventorDoc}].path)" };
+            return new List<string> { $"$(engine.path)\\InventorCoreConsole.exe /al $(appbundles[{Constants.Activity.Id}].path) " };
         }
 
         /// <summary>
@@ -65,7 +66,7 @@ namespace Interaction
                             new Parameter
                             {
                                 Verb = Verb.Get,
-                                Description = "IPT file to process"
+                                Description = "XML file to process"
                             }
                         },
                         {
@@ -73,8 +74,8 @@ namespace Interaction
                             new Parameter
                             {
                                 Verb = Verb.Put,
-                                LocalName = "result.ipt",
-                                Description = "Resulting IPT",
+                                LocalName = "result.iam",
+                                Description = "Resulting IAM",
                                 Ondemand = false,
                                 Required = false
                             }
@@ -94,7 +95,7 @@ namespace Interaction
                             Constants.Parameters.InventorDoc,
                             new XrefTreeArgument
                             {
-                                Url = "!!! CHANGE ME !!!"
+                                Url = "https://developer.api.autodesk.com/oss/v2/signedresources/e641f5bd-a9fa-4074-b812-961049c9a4cb?region=US"
                             }
                         },
                         {
@@ -102,7 +103,7 @@ namespace Interaction
                             new XrefTreeArgument
                             {
                                 Verb = Verb.Put,
-                                Url = "!!! CHANGE ME !!!"
+                                Url = "https://developer.api.autodesk.com/oss/v2/signedresources/c686ce15-ba6f-4f8b-a74f-e5caa26d009a?region=US"
                             }
                         }
                     };

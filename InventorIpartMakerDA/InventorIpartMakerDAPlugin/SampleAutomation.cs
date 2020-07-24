@@ -79,7 +79,7 @@ namespace InventorIpartMakerDAPlugin
             oParams.AddByExpression("height", "10", UnitsTypeEnum.kMillimeterLengthUnits);
             oParams.AddByExpression("length", "10", UnitsTypeEnum.kMillimeterLengthUnits);
 
-
+            
 
             Point2d[] oPoints = new Point2d[4];
 
